@@ -176,8 +176,9 @@ joe.scopeArrow()
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//  
+//  this is the student object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// this is the window object
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// arrow functions do not reset or have their own scope,
+// they use the value of the enclosing scope (outside the arrow function)
